@@ -5,7 +5,7 @@
     <h1 class='area-title__title' role='text'>
       {% if portfolioImage %}
         <a href="/">
-          <img class='area-title__image' src={{ portfolioImage }} />
+          <img class='area-title__image' src={{ portfolioImage | img }} />
         </a>
       {% endif %}
       {{ project.name }}
@@ -15,7 +15,7 @@
     <h1 class='area-title__title area-title__title--no-details' role='text'>
       {% if portfolioImage %}
         <a href="/">
-          <img class='area-title__image' src={{ portfolioImage }} />
+          <img class='area-title__image' src={{ portfolioImage | img }} />
         </a>
       {% endif %}
       {{ project.name }}

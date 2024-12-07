@@ -3,7 +3,7 @@
     {{ portfolioName }}
 
     {% if portfolioImage %}
-      <img class='area-title__image' src={{ portfolioImage }} />
+      <img class='area-title__image' src={{ portfolioImage | img }} />
     {% endif %}
     
     {% if portfolioTagline %}
