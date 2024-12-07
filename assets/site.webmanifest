@@ -1,0 +1,19 @@
+
+{
+  "name": "Portfolio BZ Woodworks",
+  "short_name": "Portfolio BZ Woodworks",
+  "description": "Thanks for visiting BZ Woodworks. My name is Jason and this site is a showcase of projects that I have created over the years.<br /><br />The BZ Woodworks name and logo are inspired by the nautical flags for "Bravo" (B) and "Zulu" (Z), which together signify "well done." This phrase originates from naval communications, where the International Code of Signals (ICS) uses flag signals and phonetic alphabet to convey messages. "Bravo Zulu" became a widely recognized way for naval forces to commend exceptional performance. While continuing my career as a US Navy Officer and crafting woodworks on the side, my goal is to bring the Bravo Zulu spirit of excellence into every woodworking project.",
+  "start_url": "//",
+  "icons": [{
+      "src": "//assets/favicon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }, {
+      "src": "//assets/favicon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+  }],
+  "theme_color": "#DD6E42",
+  "background_color": "#EAEAEA",
+  "display": "standalone"
+}
