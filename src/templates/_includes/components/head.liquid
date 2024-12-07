@@ -5,7 +5,7 @@
     <meta name='description' content='{{ portfolioDescription }}'>
   {% endif %}
   <meta name='theme-color' content='{{ portfolio.colors.primary }}'>
-  <title>{{ portfolioName }} - {{ title | default: 'Home' }}</title>
+  <title>{{ portfolioName }} - {{ title | default: portfolioTagline }}</title>
   <link rel='icon' href='{{ 'favicon/favicon.ico' | asset }}' />
   <link rel='icon' type='image/png' sizes='32x32' href='{{ 'favicon/favicon-32x32.png' | asset }}'>
   <link rel='icon' type='image/png' sizes='16x16' href='{{ 'favicon/favicon-16x16.png' | asset }}'>

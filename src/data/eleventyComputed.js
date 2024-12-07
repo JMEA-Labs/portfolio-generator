@@ -13,7 +13,10 @@ const getPortfolio = (data) => {
 module.exports = {
   lang: (data) => getPageLang(data.page),
   portfolioName: (data) => getPortfolio(data).name,
+  portfolioTagline: (data) => getPortfolio(data).tagline,
   portfolioDescription: (data) => getPortfolio(data).description,
+  portfolioImage: (data) => getPortfolio(data).image,
+  portfolioImageWords: (data) => getPortfolio(data).imageWords,
   categories: (data) => getPortfolio(data).categories,
   tags: (data) => getPortfolio(data).tags,
   projects: (data) => {

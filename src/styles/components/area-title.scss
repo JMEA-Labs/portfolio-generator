@@ -64,6 +64,7 @@
   &__subtitle {
     display: block;
     margin-top: 0.8rem;
+    font-size: 1.6rem;
   }
 
   &__description {
@@ -73,6 +74,12 @@
     color: var(--color-text-light);
     font-size: 1.6rem;
     font-weight: bold;
+  }
+
+  &__image {
+    width:20rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   &__category-and-tags {

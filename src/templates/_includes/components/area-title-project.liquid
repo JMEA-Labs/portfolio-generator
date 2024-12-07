@@ -1,9 +1,27 @@
 <div class='area-title area-title--project'>
+  
+
   {% if project.description or project.category or project.tags %}
-    <h1 class='area-title__title' role='text'>{{ project.name }}</h1>
+    <h1 class='area-title__title' role='text'>
+      {% if portfolioImage %}
+        <a href="/">
+          <img class='area-title__image' src={{ portfolioImage }} />
+        </a>
+      {% endif %}
+      {{ project.name }}
+      
+    </h1>
   {% else %}
-    <h1 class='area-title__title area-title__title--no-details' role='text'>{{ project.name }}</h1>
+    <h1 class='area-title__title area-title__title--no-details' role='text'>
+      {% if portfolioImage %}
+        <a href="/">
+          <img class='area-title__image' src={{ portfolioImage }} />
+        </a>
+      {% endif %}
+      {{ project.name }}
+    </h1>
   {% endif %}
+
 
   <div class='area-title__details'>
     {% if project.description %}
@@ -19,11 +37,4 @@
     {% endif %}
   </div>
 
-  <div class='area-title__icon'>
-    <img
-      src='{{ project.icon.src | img }}'
-      alt='{{ project.name }} {{ 'icon' | translate: lang }}'
-      width='{{ project.icon.width | default: '' }}'
-      height='{{ project.icon.height | default: '' }}'>
-  </div>
  </div>

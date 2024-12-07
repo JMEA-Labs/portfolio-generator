@@ -1,79 +1,111 @@
 {
-  "name": "Portfolio generator",
-  "description": "A project that generates a portfolio site for you! All generated from a single json file",
+  "name": "BZ Woodworks",
+  "tagline": "Well done woodworks made for you.",
+  "description": "Thanks for visiting BZ Woodworks. My name is Jason and this site is a showcase of projects that I have created over the years.<br /><br />The BZ Woodworks name and logo are inspired by the nautical flags for \"Bravo\" (B) and \"Zulu\" (Z), which together signify \"well done.\" This phrase originates from naval communications, where the International Code of Signals (ICS) uses flag signals and phonetic alphabet to convey messages. \"Bravo Zulu\" became a widely recognized way for naval forces to commend exceptional performance. While continuing my career as a US Navy Officer and crafting woodworks on the side, my goal is to bring the Bravo Zulu spirit of excellence into every woodworking project.",
+  "image": "/assets/img/logo/logo.png",
+  "imageWords": "/assets/img/logo/logo-words-transparent.png",
   "showFooter": true,
   "filters": true,
-  "root": "/portfolio-generator",
+  "root": "/",
   "colors": {
-    "primary": "#0074D9",
+    "primary": "#DD6E42",
     "text-light": "#FFFFFF",
     "text-dark": "#333333",
-    "background-light": "#FFFFFF",
-    "background-dark": "#1A2A3A"
-  },
-  "i18n": {
-    "langs": ["en-US", "pt-BR", "es-MX"],
-    "default": "en-US"
+    "background-light": "#EAEAEA",
+    "background-dark": "#4F6D7A"
   },
   "categories": [
-    { "id": 0, "name": "Dessert", "color": "red" },
-    { "id": 1, "name": "Vegetable", "color": "purple" }
+    { "id": "ornaments", "name": "Ornament", "color": "red" },
+    { "id": "coasters", "name": "Coaster", "color": "purple" }
   ],
   "tags": [
-    { "id": 0, "name": "French", "color": "green" },
-    { "id": 1, "name": "Brazilian", "color": "blue" }
+    { "id": "maps", "name": "Maps", "color": "green" },
+    { "id": "frames", "name": "Photo Frame", "color": "blue" },
+    { "id": "personalized", "name": "Personalized", "color": "orange" },
+    { "id": "baltic-birch", "name": "Made of Baltic Birch", "color": "brown" },
+    { "id": "basswood", "name": "Made of Basswood", "color": "brown" },
+    { "id": "mahogany", "name": "Made of Mahogany", "color": "brown" }
   ],
   "projects": [
     {
-      "id": 0,
-      "name": "Example project 1",
-      "description": "My project 1 is actually a Pudding",
-      "category": 0,
+      "id": "custom_school_photo_frame_ornament",
+      "name": "Custom School Photo Frame Ornament",
+      "description": "Preserve cherished school memories with this Custom School Photo Frame Ornament, designed to highlight your child's journey through school! This set includes a laser-cut wooden frame perfectly sized to hold a 2.5\" x 3.5\" wallet-size photo, along with customizable grade tags and school name.",
+      "category": "ornaments",
+      "tags": ["frames", "personalized", "basswood"],
       "icon": {
-        "src": "pudding.jpg",
-        "width": 373,
-        "height": 280
+        "src": "ornaments/school_photo_frame/BZ Woodworks - School Photo Frame Ornament - Listing Cover.png"
       },
       "links": [
-        { "text": "website", "url": "http://www.pudim.com.br" },
-        {
-          "text": "More images of pudding at google",
-          "url": "https://www.google.com/search?tbm=isch&q=pudding&tbs=imgo:1"
-        }
+        { "text": "Purchase on Etsy", "url": "#" },
+        { "text": "Email to inquire", "url": "mailto:jason@bzwoodworks.com&subject=Product%20Inquiry:%20Custom%20School%20Photo%20Frame%20Ornament" }
       ],
       "images": [
         {
-          "src": "https://cookingwithdog.com/wp-content/uploads/2017/01/custard-pudding-00.jpg",
-          "alt": "A Pudding",
-          "width": 1280,
-          "height": 720
+          "src": "ornaments/school_photo_frame/BZ Woodworks - School Photo Frame Ornament - Listing Cover.png",
+          "alt": "School Photo Frame Ornament"
         },
         {
-          "src": "https://www.yummytummyaarthi.com/wp-content/uploads/2017/08/1-9.jpg"
+          "src": "ornaments/school_photo_frame/BZ Woodworks - School Photo Frame Ornament - Instructions.png"
+        },
+        {
+          "src": "ornaments/school_photo_frame/BZ Woodworks - School Photo Frame Ornament - Cutouts.png"
+        },
+        {
+          "src": "ornaments/school_photo_frame/BZ Woodworks - School Photo Frame Ornament - Pencil.png"
+        },
+        {
+          "src": "ornaments/school_photo_frame/BZ Woodworks - School Photo Frame Ornament - School.png"
+        },
+        {
+          "src": "ornaments/school_photo_frame/BZ Woodworks - School Photo Frame Ornament - Smiley.png"
+        },
+        {
+          "src": "ornaments/school_photo_frame/BZ Woodworks - School Photo Frame Ornament - Star.png"
+        },
+        {
+          "src": "ornaments/school_photo_frame/BZ Woodworks - School Photo Frame Ornament - Year.png"
         }
-      ],
-      "videos": [{ "src": "https://kutt.it/7nbVKz" }]
+      ]
     },
     {
-      "id": 1,
-      "name": "Example project 2",
-      "description": "My project 2 is actually Cassava (Mandioca para os brasileiros)",
-      "category": 1,
-      "tags": [1],
+      "id": "map_ornaments",
+      "name": "Map Ornaments",
+      "description": "Beautifully crafted layered map ornaments. I have created map ornaments for Crofton, Maryland.",
+      "category": "ornaments",
+      "tags": ["maps", "baltic-birch"],
       "icon": {
-        "src": "cassava.jpg"
-      }
-    },
-    {
-      "id": 2,
-      "name": "Example project 3",
-      "category": 1,
-      "tags": [0],
-      "icon": {
-        "src": "french-fries.jpg"
+        "src": "ornaments/maps/Crofton Maryland Ornament.jpg"
       },
-      "videos": [
-        { "youtube": "https://www.youtube.com/embed/CpGwrfOzCA0?start=21" }
+      "links": [
+        { "text": "Purchase on Etsy", "url": "#" },
+        { "text": "Email to inquire", "url": "mailto:jason@bzwoodworks.com&subject=Product%20Inquiry:%20Map%20Ornaments" }
+      ],
+      "images": [
+        {
+          "src": "ornaments/maps/Crofton Maryland Ornament.jpg"
+        }
+      ]
+    },
+    {
+      "id": "crofton_woods_elementary_ornament",
+      "name": "Crofton Woods Elementary Ornament",
+      "description": "Custom order for a school's image on a beautiful mahoganny ornament.",
+      "category": "ornaments",
+      "tags": ["mahogany"],
+      "icon": {
+        "src": "ornaments/crofton_woods/Crofton Woods Ornaments - Pile.jpg"
+      },
+      "links": [
+        { "text": "Email to inquire", "url": "mailto:jason@bzwoodworks.com&subject=Product%20Inquiry:%20Crofton%20Woods%20Ornaments" }
+      ],
+      "images": [
+        {
+          "src": "ornaments/crofton_woods/Crofton Woods Ornaments - Pile.jpg"
+        },
+        {
+          "src": "ornaments/crofton_woods/Crofton Woods Ornament.jpg"
+        }
       ]
     }
   ]
