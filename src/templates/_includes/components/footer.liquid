@@ -1,5 +1,22 @@
 {% if portfolio.showFooter %}
   <footer class='footer'>
+    <div>Find us on:</div>
+    <div>
+      {% if socials.facebook %}
+        <span>
+          <a href={{ socials.facebook }} target="_new">
+            <img class="social" src="/assets/img/social/Facebook_Logo_Primary.png" />
+          </a>
+        </span>
+      {% endif %}
+      {% if socials.etsy %}
+        <span>
+          <a href={{ socials.etsy }} target="_new">
+            <img class="social" src="/assets/img/social/Etsy_logo.png" />
+          </a>
+        </span>
+      {% endif %}
+    </div>
     <a href='#' class='footer__back-to-top'>{{ 'back-to-top' | translate: lang }}</a>
   </footer>
 {% endif %}

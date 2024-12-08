@@ -30,4 +30,5 @@ module.exports = {
 
     return projects
   },
+  socials: (data) => getPortfolio(data).socials
 };

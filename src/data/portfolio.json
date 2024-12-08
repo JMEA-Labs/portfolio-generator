@@ -1,9 +1,13 @@
 {
   "name": "BZ Woodworks",
-  "tagline": "Well done woodworks made for you.",
+  "tagline": "Well done woodworks, every piece, every time.",
   "description": "Thanks for visiting BZ Woodworks. My name is Jason and this site is a showcase of projects that I have created over the years.<br /><br />The BZ Woodworks name and logo are inspired by the nautical flags for \"Bravo\" (B) and \"Zulu\" (Z), which together signify \"well done.\" This phrase originates from naval communications, where the International Code of Signals (ICS) uses flag signals and phonetic alphabet to convey messages. \"Bravo Zulu\" became a widely recognized way for naval forces to commend exceptional performance. While continuing my career as a US Navy Officer and crafting woodworks on the side, my goal is to bring the Bravo Zulu spirit of excellence into every woodworking project.",
   "image": "logo/logo.png",
   "imageWords": "logo/logo-words-transparent.png",
+  "socials": {
+    "facebook": "https://www.facebook.com/BZWoodworksPage",
+    "etsy": "https://bzwoodworksshop.etsy.com"
+  },
   "showFooter": true,
   "filters": true,
   "root": "/",
@@ -16,7 +20,9 @@
   },
   "categories": [
     { "id": "ornaments", "name": "Ornament", "color": "red" },
-    { "id": "coasters", "name": "Coaster", "color": "purple" }
+    { "id": "coasters", "name": "Coaster", "color": "purple" },
+    { "id": "toys", "name": "Toy", "color": "yellow" },
+    { "id": "other", "name": "Other", "color": "black" }
   ],
   "tags": [
     { "id": "maps", "name": "Maps", "color": "green" },
@@ -105,6 +111,121 @@
         },
         {
           "src": "ornaments/crofton_woods/Crofton Woods Ornament.jpg"
+        }
+      ]
+    },
+    {
+      "id": "pegsies",
+      "name": "Pegsies Wooden Peg Dolls",
+      "description": "In 2020, with two young daughters and an unexpected amount of free time, our family decided to create a wood based creative and playful doll option. We saw so many toys on the market that simply wasted a regrettable amount of plastic and felt we had some ideas to offer. Pegsies, as its own brand and company, has grown over the years found its way into homes, schools, and churches in all 50 states and more than 10 countries.",
+      "category": "toys",
+      "tags": ["baltic-birch", "personalized"],
+      "icon": {
+        "src": "toys/pegsies/Pegsies-Royal-Peg-Dolls.png"
+      },
+      "links": [
+        { "text": "Pegsies Website", "url": "https://pegsies.com" },
+        { "text": "Etsy Shop", "url": "https://pegsiesshop.etsy.com" },
+        { "text": "Amazon Shop", "url": "https://www.amazon.com/s?k=Pegsies" },
+        { "text": "Michaels Shop", "url": "https://www.michaels.com/mp/storefront/pegsies" },
+        { "text": "Email to inquire", "url": "mailto:jason@bzwoodworks.com&subject=Product%20Inquiry:%20Pegsies" }
+      ],
+      "images": [
+        {
+          "src": "toys/pegsies/Pegsies-Alphabet-Peg-Dolls.png"
+        },
+        {
+          "src": "toys/pegsies/Pegsies-Animal-Peg-Dolls.png"
+        },
+        {
+          "src": "toys/pegsies/Pegsies-Arctic-Friends-Peg-Dolls.png"
+        },
+        {
+          "src": "toys/pegsies/Pegsies-Astronaut-Spaceship-Peg-Dolls.png"
+        },
+        {
+          "src": "toys/pegsies/Pegsies-Christmas-Nativity-Peg-Dolls.png"
+        },
+        {
+          "src": "toys/pegsies/Pegsies-Christmas-North-Pole-Peg-Dolls.png"
+        },
+        {
+          "src": "toys/pegsies/Pegsies-Christmas-Nutcracker-Peg-Dolls.png"
+        },
+        {
+          "src": "toys/pegsies/Pegsies-Easter-Peg-Dolls.png"
+        },
+        {
+          "src": "toys/pegsies/Pegsies-Family-Peg-Dolls.png"
+        },
+        {
+          "src": "toys/pegsies/Pegsies-First-Responders-Peg-Dolls.png"
+        },
+        {
+          "src": "toys/pegsies/Pegsies-Halloween-Peg-Dolls.png"
+        },
+        {
+          "src": "toys/pegsies/Pegsies-Halloween-Large-Peg-Dolls.png"
+        },
+        {
+          "src": "toys/pegsies/Pegsies-Heart-Couple-Peg-Dolls.png"
+        },
+        {
+          "src": "toys/pegsies/Pegsies-Last-Supper-Peg-Dolls.png"
+        },
+        {
+          "src": "toys/pegsies/Pegsies-Mermaid-Peg-Dolls.png"
+        },
+        {
+          "src": "toys/pegsies/Pegsies-Midsummer-Nights-Dream-Peg-Dolls.png"
+        },
+        {
+          "src": "toys/pegsies/Pegsies-Mini-Animals-Peg-Dolls.png"
+        },
+        {
+          "src": "toys/pegsies/Pegsies-Navy-Sailor-Peg-Dolls.png"
+        },
+        {
+          "src": "toys/pegsies/Pegsies-Pirate-Peg-Dolls.png"
+        },
+        {
+          "src": "toys/pegsies/Pegsies-Royal-Peg-Dolls.png"
+        },
+        {
+          "src": "toys/pegsies/Pegsies-Royal-Large-Peg-Dolls.png"
+        },
+        {
+          "src": "toys/pegsies/Pegsies-Sports-Peg-Dolls.png"
+        },
+        {
+          "src": "toys/pegsies/Pegsies-Sports-Personalized-Peg-Dolls.png"
+        },
+        {
+          "src": "toys/pegsies/Pegsies-Superhero-Peg-Dolls.png"
+        }
+      ]
+    },
+    {
+      "id": "treasure-chest-logo",
+      "name": "Treasure Chest with Logo",
+      "description": "Treasure chest with logo etched into the lid.",
+      "category": "other",
+      "tags": ["baltic-birch", "personalized"],
+      "icon": {
+        "src": "other/treasure-chest-logo/Treasure-Chest-Logo-Front.jpg"
+      },
+      "links": [
+        { "text": "Email to inquire", "url": "mailto:jason@bzwoodworks.com&subject=Product%20Inquiry:%20Treasure%20Chest%20with%20Logo" }
+      ],
+      "images": [
+        {
+          "src": "other/treasure-chest-logo/Treasure-Chest-Logo-Front.jpg"
+        },
+        {
+          "src": "other/treasure-chest-logo/Treasure-Chest-Logo-Top.jpg"
+        },
+        {
+          "src": "other/treasure-chest-logo/Treasure-Chest-Logo-Open.jpg"
         }
       ]
     }
